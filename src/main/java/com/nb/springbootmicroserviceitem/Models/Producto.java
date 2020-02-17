@@ -1,5 +1,6 @@
 package com.nb.springbootmicroserviceitem.Models;
 
+import java.beans.Transient;
 import java.util.Date;
 
 public class Producto {
@@ -8,6 +9,8 @@ public class Producto {
     private String nombre;
     private double precio;
     private Date createAt;
+
+    private int port;
 
     public Long getId() {
         return id;
@@ -39,5 +42,13 @@ public class Producto {
 
     public void setCreateAt(Date createAt) {
         this.createAt = createAt;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
     }
 }
