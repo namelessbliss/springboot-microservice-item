@@ -8,6 +8,7 @@ import com.netflix.ribbon.proxy.annotation.Hystrix;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,6 +20,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//Permite actualizar componentes
+//para actualizar con Actuator: http://url/actuator/refresh
+@RefreshScope
 @RestController
 public class ItemController {
 
