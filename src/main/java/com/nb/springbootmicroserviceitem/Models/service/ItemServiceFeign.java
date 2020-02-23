@@ -1,6 +1,7 @@
 package com.nb.springbootmicroserviceitem.Models.service;
 
 import com.nb.springbootmicroserviceitem.Models.Item;
+import com.nb.springbootmicroserviceitem.Models.Producto;
 import com.nb.springbootmicroserviceitem.clientes.ProductoClienteRest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
@@ -24,5 +25,20 @@ public class ItemServiceFeign implements ItemService {
     @Override
     public Item findById(Long id, int cantidad) {
         return new Item(clienteFeign.detalle(id), cantidad);
+    }
+
+    @Override
+    public Producto save(Producto producto) {
+        return null;
+    }
+
+    @Override
+    public Producto update(Producto producto, long id) {
+        return null;
+    }
+
+    @Override
+    public void delete(long id) {
+
     }
 }
