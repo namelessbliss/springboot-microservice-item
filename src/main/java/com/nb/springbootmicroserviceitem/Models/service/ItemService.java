@@ -1,7 +1,7 @@
 package com.nb.springbootmicroserviceitem.Models.service;
 
 import com.nb.springbootmicroserviceitem.Models.Item;
-import com.nb.springbootmicroserviceitem.Models.Producto;
+import com.nb.springbootmicroservicecommons.Models.Entity.Producto;
 
 import java.util.List;
 

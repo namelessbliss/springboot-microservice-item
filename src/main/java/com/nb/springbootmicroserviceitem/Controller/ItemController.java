@@ -1,11 +1,9 @@
 package com.nb.springbootmicroserviceitem.Controller;
 
 import com.nb.springbootmicroserviceitem.Models.Item;
-import com.nb.springbootmicroserviceitem.Models.Producto;
+import com.nb.springbootmicroservicecommons.Models.Entity.Producto;
 import com.nb.springbootmicroserviceitem.Models.service.ItemService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.ribbon.proxy.annotation.Http;
-import com.netflix.ribbon.proxy.annotation.Hystrix;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;

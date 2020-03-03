@@ -1,7 +1,7 @@
 package com.nb.springbootmicroserviceitem.Models.service;
 
 import com.nb.springbootmicroserviceitem.Models.Item;
-import com.nb.springbootmicroserviceitem.Models.Producto;
+import com.nb.springbootmicroservicecommons.Models.Entity.Producto;
 import com.nb.springbootmicroserviceitem.clientes.ProductoClienteRest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;

@@ -1,5 +1,7 @@
 package com.nb.springbootmicroserviceitem.Models;
 
+import com.nb.springbootmicroservicecommons.Models.Entity.Producto;
+
 public class Item {
 
     private Producto producto;

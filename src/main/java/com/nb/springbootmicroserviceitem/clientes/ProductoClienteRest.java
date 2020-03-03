@@ -1,12 +1,9 @@
 package com.nb.springbootmicroserviceitem.clientes;
 
-import com.nb.springbootmicroserviceitem.Models.Item;
-import com.nb.springbootmicroserviceitem.Models.Producto;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.context.annotation.Primary;
+import com.nb.springbootmicroservicecommons.Models.Entity.Producto;
 import org.springframework.web.bind.annotation.*;
 
-import javax.sound.sampled.Port;
 import java.util.List;
 
 @FeignClient(name = "servicio-productos")

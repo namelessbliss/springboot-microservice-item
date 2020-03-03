@@ -1,6 +1,7 @@
 package com.nb.springbootmicroserviceitem.Models;
 
 import com.nb.springbootmicroserviceitem.Models.service.ItemService;
+import com.nb.springbootmicroservicecommons.Models.Entity.Producto;
 import feign.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
